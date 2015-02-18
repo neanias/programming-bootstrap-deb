@@ -1,0 +1,32 @@
+Source: programming-bootstrap
+Section: devel
+Priority: optional
+Maintainer: James Wheatley <james@jammy.co>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Vcs-Git: https://github.com/JammyStuff/programming-bootstrap-deb.git
+Vcs-Browser: https://github.com/JammyStuff/programming-bootstrap-deb
+
+Package: programming-bootstrap
+Architecture: all
+Depends: ${misc:Depends},
+         python(<< 3), python3, python-pip, python3-pip,
+         ruby,
+         build-essential,
+         golang,
+         default-jdk, default-jre,
+         ghc,
+         mono-complete,
+         nodejs,
+         vim,
+         emacs,
+         eclipse,
+         monodevelop, monodevelop-nunit,
+         git,
+         mercurial,
+         subversion,
+         cvs,
+         gdb
+Description: Metapackage providing a wide variety of development tools
+ This is a metapackage providing a number of development tools, such as
+ compilers for a variety of languages, IDEs, and editors.
