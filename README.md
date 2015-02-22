@@ -17,7 +17,7 @@ The source for the Debian package for programming-bootstrap
 ### Editors/IDEs
 - vim
 - Emacs
-- Eclipse
+- Eclipse (with C/C++ development tooling)
 - MonoDevelop (and the NUnit plugin)
 
 ### Other
