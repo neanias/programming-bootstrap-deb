@@ -26,3 +26,4 @@ The source for the Debian package for programming-bootstrap
 - Subversion
 - CVS
 - GDB
+- CppUTest

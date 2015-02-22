@@ -12,7 +12,7 @@ Architecture: all
 Depends: ${misc:Depends},
          python(<< 3), python3, python-pip, python3-pip,
          ruby,
-         build-essential,
+         build-essential, cpputest,
          golang,
          default-jdk, default-jre,
          ghc,
