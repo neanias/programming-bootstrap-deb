@@ -2,6 +2,7 @@ programming-bootstrap (1.1) UNRELEASED; urgency=low
 
   * Added CppUTest.
   * Added Eclipse C/C++ development tooling.
+  * Added Erlang.
 
  -- James Wheatley <james@jammy.co>  Sun, 22 Feb 2015 22:37:02 +0000
 

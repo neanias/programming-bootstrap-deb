@@ -13,6 +13,7 @@ The source for the Debian package for programming-bootstrap
 - GHC
 - Mono
 - Node.js
+- Erlang
 
 ### Editors/IDEs
 - vim
