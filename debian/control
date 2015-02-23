@@ -2,8 +2,8 @@ Source: programming-bootstrap
 Section: devel
 Priority: optional
 Maintainer: James Wheatley <james@jammy.co>
-Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 9.0.0)
+Standards-Version: 3.9.6
 Vcs-Git: https://github.com/JammyStuff/programming-bootstrap-deb.git
 Vcs-Browser: https://github.com/JammyStuff/programming-bootstrap-deb
 
@@ -31,3 +31,11 @@ Depends: ${misc:Depends},
 Description: Metapackage providing a wide variety of development tools
  This is a metapackage providing a number of development tools, such as
  compilers for a variety of languages, IDEs, and editors.
+
+Package: programming-bootstrap-setup
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: programming-bootstrap
+Description: Installs sources.list for programming-bootstrap repo
+ This package installs a sources.list to /etc/apt/sources.list.d/ for the
+ programming-bootstrap repository, as well as the packagecloud.io apt key.
