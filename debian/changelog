@@ -1,11 +1,11 @@
-programming-bootstrap (1.1.0) UNRELEASED; urgency=low
+programming-bootstrap (1.1.0) unstable; urgency=low
 
   * Added CppUTest.
   * Added Eclipse C/C++ development tooling.
   * Added Erlang.
   * Added programming-bootstrap-setup package.
 
- -- James Wheatley <james@jammy.co>  Sun, 22 Feb 2015 22:37:02 +0000
+ -- James Wheatley <james@jammy.co>  Mon, 23 Feb 2015 14:38:52 +0000
 
 programming-bootstrap (1.0) unstable; urgency=low
 
