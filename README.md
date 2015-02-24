@@ -8,6 +8,8 @@ The source for the Debian package for programming-bootstrap
 - Pip (for Python 2 and Python 3)
 - Ruby
 - build-essential (includes gcc and g++)
+- LLVM
+- Clang
 - Go
 - OpenJDK
 - GHC
