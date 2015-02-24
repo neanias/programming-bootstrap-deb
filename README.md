@@ -16,6 +16,7 @@ The source for the Debian package for programming-bootstrap
 - Mono
 - Node.js
 - Erlang
+- GNAT
 
 ### Editors/IDEs
 - vim
