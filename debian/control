@@ -29,7 +29,10 @@ Depends: ${misc:Depends},
          mercurial,
          subversion,
          cvs,
-         gdb
+         gdb,
+         curl,
+         screen,
+         tmux
 Description: Metapackage providing a wide variety of development tools
  This is a metapackage providing a number of development tools, such as
  compilers for a variety of languages, IDEs, and editors.
