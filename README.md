@@ -31,3 +31,6 @@ The source for the Debian package for programming-bootstrap
 - CVS
 - GDB
 - CppUTest
+- curl
+- screen
+- tmux
